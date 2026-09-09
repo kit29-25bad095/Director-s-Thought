@@ -1,0 +1,7 @@
+{
+  "name": "Director's Thought",
+  "description": "Turn your thought into a film. The AI filmmaking studio for directors and screenwriters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
