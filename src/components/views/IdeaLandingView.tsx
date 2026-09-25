@@ -381,7 +381,7 @@ export const IdeaLandingView: React.FC<IdeaLandingViewProps> = ({
               {activeSubTab === 'chat' ? (
                 <div className="flex flex-col flex-1">
                   {/* Messages Thread */}
-                  <div className="p-4 sm:p-5 space-y-3.5 max-h-[420px] min-h-[260px] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200">
+                  <div className="p-4 sm:p-5 space-y-3.5 max-h-105 min-h-65 overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200">
                     {messages.map((message) => {
                       const isAi = message.role === 'assistant';
                       return (
@@ -594,7 +594,7 @@ export const IdeaLandingView: React.FC<IdeaLandingViewProps> = ({
                 {history.map((item) => (
                   <div key={item.id} className="relative group">
                     {/* Timeline dot matching screenshot exactly */}
-                    <span className="absolute -left-[21px] top-1 w-2.5 h-2.5 rounded-full bg-blue-600 ring-4 ring-blue-50 group-hover:scale-125 transition-transform" />
+                    <span className="absolute -left-5.25 top-1 w-2.5 h-2.5 rounded-full bg-blue-600 ring-4 ring-blue-50 group-hover:scale-125 transition-transform" />
                     <div className="space-y-0.5">
                       <h4 className="text-xs font-semibold text-slate-800 group-hover:text-blue-600 transition-colors">
                         {item.title}

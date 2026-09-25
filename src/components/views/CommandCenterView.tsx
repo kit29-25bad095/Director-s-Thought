@@ -342,7 +342,7 @@ export const CommandCenterView: React.FC<CommandCenterViewProps> = ({
                   className="p-3 rounded-lg border border-slate-200 hover:border-purple-300 transition bg-slate-50/60"
                 >
                   <div className="flex items-center justify-between text-xs mb-1">
-                    <span className="font-bold text-slate-900 truncate max-w-[180px]">
+                    <span className="font-bold text-slate-900 truncate max-w-45">
                       {dec.title}
                     </span>
                     <span

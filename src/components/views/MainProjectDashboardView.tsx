@@ -75,10 +75,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-idea"
               onClick={() => onNavigateTab('idea')}
-              className="group bg-[#fffbeb] hover:bg-[#fef3c7] border border-amber-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#fffbeb] hover:bg-[#fef3c7] border border-amber-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-amber-400/30 flex items-center justify-center text-amber-600 group-hover:scale-110 transition-transform">
-                <Lightbulb className="w-6 h-6 stroke-[2.5]" />
+                <Lightbulb className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-amber-600 uppercase">Stage 04</span>
@@ -91,10 +91,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-story"
               onClick={() => onNavigateTab('story')}
-              className="group bg-[#eff6ff] hover:bg-[#dbeafe] border border-blue-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#eff6ff] hover:bg-[#dbeafe] border border-blue-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-blue-500/20 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
-                <BookOpen className="w-6 h-6 stroke-[2.5]" />
+                <BookOpen className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-blue-600 uppercase">Stage 05</span>
@@ -107,10 +107,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-screenplay"
               onClick={() => onNavigateTab('screenplay')}
-              className="group bg-[#faf5ff] hover:bg-[#f3e8ff] border border-purple-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#faf5ff] hover:bg-[#f3e8ff] border border-purple-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-purple-500/20 flex items-center justify-center text-purple-600 group-hover:scale-110 transition-transform">
-                <FileText className="w-6 h-6 stroke-[2.5]" />
+                <FileText className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-purple-600 uppercase">Stage 06</span>
@@ -123,10 +123,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-characters"
               onClick={() => onNavigateTab('characters')}
-              className="group bg-[#fff1f2] hover:bg-[#ffe4e6] border border-rose-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#fff1f2] hover:bg-[#ffe4e6] border border-rose-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-rose-500/20 flex items-center justify-center text-rose-600 group-hover:scale-110 transition-transform">
-                <Users className="w-6 h-6 stroke-[2.5]" />
+                <Users className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-rose-600 uppercase">Stage 07</span>
@@ -139,10 +139,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-design"
               onClick={() => onNavigateTab('production-design')}
-              className="group bg-[#f0fdfa] hover:bg-[#ccfbf1] border border-teal-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#f0fdfa] hover:bg-[#ccfbf1] border border-teal-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-teal-500/20 flex items-center justify-center text-teal-600 group-hover:scale-110 transition-transform">
-                <Palette className="w-6 h-6 stroke-[2.5]" />
+                <Palette className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-teal-600 uppercase">Stage 08</span>
@@ -155,10 +155,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-board"
               onClick={() => onNavigateTab('pre-prod-board')}
-              className="group bg-[#fff7ed] hover:bg-[#ffedd5] border border-orange-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#fff7ed] hover:bg-[#ffedd5] border border-orange-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-orange-500/20 flex items-center justify-center text-orange-600 group-hover:scale-110 transition-transform">
-                <Layers className="w-6 h-6 stroke-[2.5]" />
+                <Layers className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-orange-600 uppercase">Stage 09</span>
@@ -171,10 +171,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-production"
               onClick={() => onNavigateTab('production-work')}
-              className="group bg-[#f0fdf4] hover:bg-[#dcfce7] border border-emerald-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#f0fdf4] hover:bg-[#dcfce7] border border-emerald-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 flex items-center justify-center text-emerald-600 group-hover:scale-110 transition-transform">
-                <Video className="w-6 h-6 stroke-[2.5]" />
+                <Video className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-emerald-600 uppercase">Stage 10</span>
@@ -187,10 +187,10 @@ export const MainProjectDashboardView: React.FC<MainProjectDashboardViewProps> =
             <button
               id="card-stage-post"
               onClick={() => onNavigateTab('post-production')}
-              className="group bg-[#eef2ff] hover:bg-[#e0e7ff] border border-indigo-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-[170px]"
+              className="group bg-[#eef2ff] hover:bg-[#e0e7ff] border border-indigo-200/80 rounded-2xl p-6 text-center transition-all duration-200 shadow-xs hover:shadow-md flex flex-col items-center justify-center gap-3 cursor-pointer min-h-42.5"
             >
               <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform">
-                <Scissors className="w-6 h-6 stroke-[2.5]" />
+                <Scissors className="w-6 h-6 stroke-2.5" />
               </div>
               <div>
                 <span className="text-[10px] font-mono font-bold text-indigo-600 uppercase">Stage 11</span>

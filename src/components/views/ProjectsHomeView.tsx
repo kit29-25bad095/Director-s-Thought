@@ -41,7 +41,7 @@ export const ProjectsHomeView: React.FC<ProjectsHomeViewProps> = ({
   return (
     <div className="h-full w-full flex flex-col lg:flex-row overflow-hidden bg-[#f4f6fb]">
       {/* 1. LEFT HALF: CINEMATIC DARK POSTER HERO (Exactly matching Screen 1) */}
-      <div className="relative w-full lg:w-1/2 bg-[#0c1424] text-white p-8 sm:p-12 lg:p-16 flex flex-col justify-between overflow-hidden shrink-0 min-h-[320px] lg:min-h-full">
+      <div className="relative w-full lg:w-1/2 bg-[#0c1424] text-white p-8 sm:p-12 lg:p-16 flex flex-col justify-between overflow-hidden shrink-0 min-h-80 lg:min-h-full">
         {/* Subtle cinematic gradient overlays */}
         <div className="absolute inset-0 bg-linear-to-t from-[#080d18] via-[#0c1424]/80 to-transparent z-10" />
         
@@ -94,7 +94,7 @@ export const ProjectsHomeView: React.FC<ProjectsHomeViewProps> = ({
             className="group w-full bg-white hover:bg-slate-50 border border-slate-200/80 hover:border-blue-400/80 rounded-2xl p-6 sm:p-7 text-left transition-all duration-200 shadow-sm hover:shadow-md flex items-center gap-5 cursor-pointer"
           >
             <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shrink-0 shadow-md group-hover:scale-105 transition-transform duration-200">
-              <Plus className="w-7 h-7 stroke-[2.5]" />
+              <Plus className="w-7 h-7 stroke-2.5" />
             </div>
             <div className="flex-1 min-w-0">
               <h2 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
@@ -114,7 +114,7 @@ export const ProjectsHomeView: React.FC<ProjectsHomeViewProps> = ({
             className="group w-full bg-white hover:bg-slate-50 border border-slate-200/80 hover:border-blue-400/80 rounded-2xl p-6 sm:p-7 text-left transition-all duration-200 shadow-sm hover:shadow-md flex items-center gap-5 cursor-pointer"
           >
             <div className="w-14 h-14 rounded-2xl bg-blue-600 flex items-center justify-center text-white shrink-0 shadow-md group-hover:scale-105 transition-transform duration-200">
-              <Folder className="w-7 h-7 stroke-[2]" />
+              <Folder className="w-7 h-7 stroke-2" />
             </div>
             <div className="flex-1 min-w-0">
               <h2 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">

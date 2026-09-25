@@ -243,7 +243,7 @@ That wasn't Sterling's cipher. That was the frequency we used when the valley co
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               placeholder="Untitled Story"
-              className="bg-transparent text-sm sm:text-base font-semibold text-neutral-100 focus:outline-none focus:ring-1 focus:ring-amber-500/50 rounded px-1.5 py-0.5 border border-transparent hover:border-neutral-800 transition truncate max-w-[200px] sm:max-w-xs md:max-w-md"
+              className="bg-transparent text-sm sm:text-base font-semibold text-neutral-100 focus:outline-none focus:ring-1 focus:ring-amber-500/50 rounded px-1.5 py-0.5 border border-transparent hover:border-neutral-800 transition truncate max-w-50 sm:max-w-xs md:max-w-md"
             />
             <span className="text-[10px] font-mono text-emerald-400/90 bg-emerald-950/40 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0 hidden md:inline-flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />

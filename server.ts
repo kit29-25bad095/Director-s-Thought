@@ -1403,7 +1403,13 @@ function getAvailablePort(port: number, maxPort = port + 25): Promise<number> {
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        host: "0.0.0.0",
+        port: DEFAULT_PORT,
+        strictPort: false,
+        hmr: false,
+      },
       appType: "spa",
     });
     app.use(vite.middlewares);

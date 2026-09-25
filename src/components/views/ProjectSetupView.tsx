@@ -297,7 +297,7 @@ export const ProjectSetupView: React.FC<ProjectSetupViewProps> = ({
               )}
 
               {/* Members List (Matching Screen 2 with avatar, name, role and X) */}
-              <div className="divide-y divide-slate-100 max-h-[280px] overflow-y-auto">
+              <div className="divide-y divide-slate-100 max-h-70 overflow-y-auto">
                 {team.map((m) => (
                   <div key={m.id} className="py-3 first:pt-1 flex items-center justify-between">
                     <div className="flex items-center gap-3">
@@ -332,7 +332,7 @@ export const ProjectSetupView: React.FC<ProjectSetupViewProps> = ({
           <div className="bg-white rounded-2xl p-6 sm:p-10 border border-slate-200/80 shadow-xs space-y-6 max-w-3xl mx-auto">
             <div className="text-center space-y-2">
               <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
-                <Check className="w-6 h-6 stroke-[2.5]" />
+                <Check className="w-6 h-6 stroke-2.5" />
               </div>
               <h2 className="text-xl font-bold text-slate-900">Project Ready to Launch!</h2>
               <p className="text-xs text-slate-500">

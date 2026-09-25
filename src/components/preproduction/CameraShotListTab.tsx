@@ -193,7 +193,7 @@ export const CameraShotListTab: React.FC<CameraShotListTabProps> = ({
                     <span className="text-emerald-400 font-medium">{shot.lens}</span>
                     <span className="text-neutral-400 block text-[11px]">{shot.cameraMovement}</span>
                   </td>
-                  <td className="py-3 max-w-[240px]">
+                  <td className="py-3 max-w-60">
                     <div className="font-medium text-neutral-100">{shot.subject}</div>
                     <div className="text-[11px] text-neutral-400 truncate">{shot.action}</div>
                     {shot.dialogueSnippet && (
@@ -202,7 +202,7 @@ export const CameraShotListTab: React.FC<CameraShotListTabProps> = ({
                       </div>
                     )}
                   </td>
-                  <td className="py-3 max-w-[200px] text-[11px] text-neutral-300">
+                  <td className="py-3 max-w-50 text-[11px] text-neutral-300">
                     {shot.storyPurpose}
                   </td>
                   <td className="py-3 font-mono text-neutral-400">{shot.durationSec}s</td>

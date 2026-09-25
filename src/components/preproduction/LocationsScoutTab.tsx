@@ -70,7 +70,7 @@ export const LocationsScoutTab: React.FC<LocationsScoutTabProps> = ({
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-white truncate max-w-[200px]">
+                  <span className="text-xs font-bold text-white truncate max-w-50">
                     {loc.name}
                   </span>
                   <span

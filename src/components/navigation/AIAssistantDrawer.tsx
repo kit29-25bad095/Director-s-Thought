@@ -171,7 +171,7 @@ Currently observing module: "${activeModule}". Ask me about story structure, roa
             </div>
             <div className="text-[10px] text-purple-400 flex items-center gap-1">
               <Brain className="w-3 h-3" />
-              <span className="truncate max-w-[170px]">Context: {activeModule}</span>
+              <span className="truncate max-w-42.5">Context: {activeModule}</span>
             </div>
           </div>
         </div>

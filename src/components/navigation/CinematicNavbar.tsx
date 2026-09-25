@@ -155,7 +155,7 @@ export const CinematicNavbar: React.FC<CinematicNavbarProps> = ({
               <div className="flex items-center gap-1.5 font-sans text-xs">
                 <span className="font-semibold text-amber-400">Back</span>
                 {previousPageTitle && (
-                  <span className="text-neutral-300 text-xs font-medium hidden sm:inline truncate max-w-[120px]">
+                  <span className="text-neutral-300 text-xs font-medium hidden sm:inline truncate max-w-30">
                     to {previousPageTitle}
                   </span>
                 )}
@@ -179,7 +179,7 @@ export const CinematicNavbar: React.FC<CinematicNavbarProps> = ({
                   24 FPS
                 </span>
               </div>
-              <div className="text-[10px] text-neutral-400 font-mono tracking-wider truncate max-w-[140px] sm:max-w-none">
+              <div className="text-[10px] text-neutral-400 font-mono tracking-wider truncate max-w-35 sm:max-w-none">
                 {projectName ? projectName.toUpperCase() : 'STUDIO // DRAFT 04'}
               </div>
             </div>
